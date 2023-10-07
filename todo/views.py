@@ -28,7 +28,6 @@ def edit_task(request, pk):
         get_task.save()
         return redirect('home')
     else:
-        get_task
         context ={
             'get_task': get_task,
         }
